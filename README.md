@@ -49,7 +49,7 @@ Sure
 - How long should the story be?
 You decide
 
-
+# Setup
 ## Create .env file
 cp .env.example .env
 
@@ -59,5 +59,20 @@ pip install -r requirements.txt
 ## How to run the code
 python main.py
 
+# Detailed Information about the project
+
 ## Block diagram
 ![alt text](image.png)
+
+## Categorization of Stories
+
+- Automatic Categorization:
+    - The system analyzes the theme and moral to pick the best category
+    - Users don't need to choose - it happens automatically
+- Example Usage
+    - Try these themes to see different categories in action:
+    - "A spaceship to Mars" (Adventure)
+    - "A kind dragon" (Fairy Tale)
+    - "The water cycle" (Educational)
+    - "A clever rabbit" (Animal)
+    - "A wizard's competition" (Fantasy)
